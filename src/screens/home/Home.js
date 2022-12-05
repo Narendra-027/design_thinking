@@ -1,9 +1,13 @@
 import './Home.css';
+import Try from '../sidebar/Sidebar'
 import React from 'react';
 
 function Home() {
   return (
     <body>
+      
+      <Try pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+    
       <div className='head'>
         <a>Login</a>
         <a>Sign up</a>
